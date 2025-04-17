@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from fno_battery.utils import extract_VIT_capacity, plot_loss, plot_pred
+from fno_battery.utils.utils import extract_VIT_capacity, plot_loss, plot_pred
 import os
 
 class SpectralConv1d(nn.Module):

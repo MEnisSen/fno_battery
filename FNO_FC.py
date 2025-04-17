@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from fno_battery.utils import load_and_proc_data_FC, evaluate_model
+from fno_battery.utils.utils import load_and_proc_data_FC, evaluate_model
 import os
 
 # Define SpectralConv1d class for spectral convolution

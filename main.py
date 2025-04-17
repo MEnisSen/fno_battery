@@ -1,10 +1,7 @@
 import torch
 import torch.optim as optim
 import torch.nn as nn
-from torch.utils.data import DataLoader, TensorDataset
-import numpy as np
-import matplotlib.pyplot as plt
-from utils import TimeSeriesFNO, load_and_proc_data, train_model, evaluate_model
+from fno_battery.utils.utils import TimeSeriesFNO, load_and_proc_data, train_model, evaluate_model
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
